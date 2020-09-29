@@ -118,7 +118,7 @@ void LinkQueue::record_arrival( const uint64_t arrival_time, const size_t pkt_si
 
 void LinkQueue::record_drop( const uint64_t time, const size_t pkts_dropped, const size_t bytes_dropped)
 {
-    return;	
+    return
     /* log it */
     if ( log_ ) {
         *log_ << time << " d " << pkts_dropped << " " << bytes_dropped << endl;
