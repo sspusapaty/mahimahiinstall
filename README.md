@@ -11,8 +11,13 @@ Building:
 ---------
 
 $ cd mahimahi
+
 $ chmod +x autogen.sh
+
 $ ./autogen.sh
+
 $ ./configure
+
 $ make
+
 $ sudo make install
